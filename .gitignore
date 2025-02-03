@@ -1,0 +1,14 @@
+# Ігнорувати Docker-образи
+*.tar
+*.gz
+
+# Ігнорувати Terraform-файли
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ігнорувати бінарні файли
+bin/
+build/
+*.exe
+*.out

@@ -1,0 +1,12 @@
+services:
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - data-processor
+
+  data-processor:
+    build: ./data-processor
+    ports:
+      - "8081:8081"
